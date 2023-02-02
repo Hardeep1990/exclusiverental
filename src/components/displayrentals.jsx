@@ -1,19 +1,18 @@
 import React from "react";
 const DispalyRentals = ({ rentals }) => {
   return (
-    <section className="py-6 bg-gray-100">
+    <section className="py-5 bg-gray-100">
       <div className="container">
         <div className="text-center pb-lg-4">
-          <p className="subtitle text-secondary">
-            One-of-A-Kind vacation rentals
-          </p>
+          <p className="subtitle">One-of-A-Kind vacation rentals</p>
           <h2 className="mb-5">Booking with us is easy</h2>
         </div>
         <div className="row d-flex justify-content-center">
           {rentals.map((r) => (
             <div
+              key={r.id}
               className="card d-flex align-items-center justify-content-center col-lg-3 mb-4 m-2"
-              style={{ width: "18rem" }}
+              style={{ width: "18rem", padding: "0px" }}
             >
               <img src={r.image} className="card-img-top" alt="..." />
               <div className="card-body">
