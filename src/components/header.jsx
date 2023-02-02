@@ -42,12 +42,20 @@ const Header = () => {
             </ul>
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link btn btn-sucess active"
+                  aria-current="page"
+                  href="#"
+                >
                   Login
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+              <li className="nav-item ms-2">
+                <a
+                  className="nav-link btn btn-sucess active"
+                  aria-current="page"
+                  href="#"
+                >
                   Register
                 </a>
               </li>
