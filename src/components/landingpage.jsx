@@ -1,4 +1,6 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
 const LandingPage = ({ rentalsImage }) => {
   console.log("print", rentalsImage);
   return (
@@ -11,7 +13,7 @@ const LandingPage = ({ rentalsImage }) => {
         {rentalsImage.map((data) => (
           <div key={data.id} className="carousel-inner">
             <div className="carousel-item active">
-              <img src={data.image} className="d-block w-100" alt="" />
+              <img src={data.image} className="d-block w-100" alt=""></img>
             </div>
           </div>
         ))}

@@ -4,11 +4,11 @@ import DisplayRentals from "./displayrentals";
 import Header from "./header";
 import LandingPage from "./landingpage";
 class Home extends Component {
-  state = { rentals: getRentals() };
-  // componentDidMount() {
-  //   const rentals = getRentals();
-  //   this.setState(rentals);
-  // }
+  state = { rentals: [] };
+  componentDidMount() {
+    const rentals = [...getRentals()];
+    this.setState({ rentals });
+  }
   render() {
     return (
       <div>

@@ -1,3 +1,26 @@
+Mission 0 Task.
+
+Tasks for Professional Software Developers
+Task 3a. Implement the wireframe of a listing website home page
+The digital team would like to prototype a solution that resembles the wireframe below.
+
+Build an application using any front-end framework of your choice with a home page using the wireframe shared as guidance.
+You can use your own colour palette and pictures.
+Search functionality need not be implemented.
+
+---
+
+I have completed the Mission 0 Task.
+Please click the below link to view my task.
+
+Built With
+Following frameworks/libraries are used in this project.
+React
+HTML
+CSS
+Bootstrap
+Javascript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
