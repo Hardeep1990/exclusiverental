@@ -19,7 +19,7 @@ const DispalyRentals = ({ rentals }) => {
                 <h5 className="card-title">{r.suburb}</h5>
                 <h6 className="card-subtitle mb-2 text-muted">{r.type}</h6>
                 <h6 className="card-subtitle mb-2">{r.price} NZD night</h6>
-                <a href="#" className="card-link">
+                <a href="#" className="card-link btn btn-success">
                   View
                 </a>
               </div>

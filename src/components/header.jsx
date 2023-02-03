@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 const Header = () => {
   return (
     <header>
-      {" "}
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg sticky-top bg-light">
         <div className="container-fluid">
           <img src="logo.png" className="" alt="logo" />
 
