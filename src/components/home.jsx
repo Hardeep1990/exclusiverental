@@ -6,8 +6,7 @@ import LandingPage from "./landingpage";
 class Home extends Component {
   state = { rentals: [] };
   componentDidMount() {
-    const rentals = [...getRentals()];
-    this.setState({ rentals });
+    this.setState({ rentals: getRentals() });
   }
   render() {
     return (

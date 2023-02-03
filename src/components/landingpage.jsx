@@ -1,6 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap";
 const LandingPage = ({ rentalsImage }) => {
   console.log("print", rentalsImage);
   return (
