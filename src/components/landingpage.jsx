@@ -10,13 +10,13 @@ const LandingPage = ({ rentalsImage }) => {
         className="carousel slide"
         data-bs-ride="carousel"
       >
-        {rentalsImage.map((data) => (
-          <div key={data.id} className="carousel-inner">
-            <div className="carousel-item active">
+        <div className="carousel-inner">
+          {rentalsImage.map((data) => (
+            <div key={data.id} className="carousel-item active">
               <img src={data.image} className="d-block w-100" alt=""></img>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <div className="searchbox">
