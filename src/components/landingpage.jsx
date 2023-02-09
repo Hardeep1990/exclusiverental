@@ -1,6 +1,6 @@
 import React from "react";
+
 const LandingPage = ({ rentalsImage }) => {
-  console.log("print", rentalsImage);
   return (
     <section className="landing-section">
       <div

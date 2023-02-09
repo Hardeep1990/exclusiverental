@@ -26,6 +26,10 @@ code {
     flex-direction: column;
     justify-content: center;
   }
+  .login,
+  .register {
+    text-decoration: none !important;
+  }
 }
 .landing-section {
   display: flex;
@@ -33,6 +37,19 @@ code {
   align-items: center;
 }
 
+.login,
+.register {
+  background-color: #c45a5a;
+  color: white !important;
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+}
+.login:hover,
+.register:hover {
+  background-color: #b33636;
+  font-weight: 600;
+}
 .carousel,
 .carousel-item,
 .carousel-inner {
@@ -57,4 +74,11 @@ h2 {
   top: 50%;
   width: 50%;
   z-index: 1;
+}
+.auction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
 }
