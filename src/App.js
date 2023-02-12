@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import Header from "./components/header";
 import NotFound from "./components/notfound";
-import Auction from "./components/auction";
+import Auction from "./components/chatbot/auction";
 import Home from "./components/home";
 import { Route, Switch, Redirect } from "react-router-dom";
 function App() {
@@ -14,7 +14,6 @@ function App() {
     <React.Fragment>
       <div className="container-fluid">
         <Header />
-
         <div>
           <Switch>
             <Route path="/auction" component={Auction} />

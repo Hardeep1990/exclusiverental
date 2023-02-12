@@ -54,26 +54,12 @@ const Header = () => {
                 </NavLink>
               </li>
             </ul>
-            <ul className="navbar-nav mb-2 mb-lg-0">
-              <li className="nav-item login m-2">
-                <a
-                  className="nav-link login active"
-                  aria-current="page"
-                  href="#"
-                >
-                  Login
-                </a>
-              </li>
-              <li className="nav-item  m-2">
-                <a
-                  className="nav-link register active"
-                  aria-current="page"
-                  href="#"
-                >
-                  Register
-                </a>
-              </li>
-            </ul>
+            <button className="btn btn-outline-success me-2" type="submit">
+              login
+            </button>
+            <button className="btn btn-outline-success" type="submit">
+              Register
+            </button>
           </div>
         </div>
       </nav>
